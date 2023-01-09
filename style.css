@@ -1,0 +1,62 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --head: calc(1rem + 2vw);
+    --bg-color: #1abc9c;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section{
+     min-height: 100vh;
+     background: url(https://www.jacadatravel.com/wp-content/uploads/2018/10/Korea-winter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero-text {
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: center;
+}
+
+.hero-text a {
+    color: white;
+    background: var(--bg-color);
+    font-weight: 900;
+    font-size: var(--text);
+}
+
+.hero-text h2 {
+    font-size: var(--head);
+}
